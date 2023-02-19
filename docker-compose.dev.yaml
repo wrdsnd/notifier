@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  notifier:
+    build: .
+    volumes:
+      - ./data:/app/data:ro
+      - type: bind
+        source: ./config.yaml
+        target: /app/config.yaml

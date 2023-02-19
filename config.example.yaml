@@ -1,0 +1,6 @@
+telegram:
+  botToken: "PUT_TOKEN_HERE"
+  chatId: 123456
+directories:
+  - ./data
+filter: ^(.*).mkv$
